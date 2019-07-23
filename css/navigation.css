@@ -1,0 +1,35 @@
+.navigation {
+    background: #fff;
+    min-height: 60px;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__logo {
+    font-size: 1.2em;
+}
+
+.navigation__menu {
+    display: flex;
+}
+
+.navigation__item {
+    padding: 10px;
+}
+
+.navigation__item:first-child {
+    padding-left: 0;
+}
+
+.navigation__link {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #202020;
+}
+
+.navigation__link:hover {
+    text-decoration: underline;
+}

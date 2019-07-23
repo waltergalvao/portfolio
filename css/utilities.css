@@ -1,0 +1,24 @@
+.text-center {
+    text-align: center;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.default-cursor:hover {
+    cursor: default;
+}

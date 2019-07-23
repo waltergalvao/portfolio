@@ -1,0 +1,31 @@
+.skill {
+    margin-top: 60px;
+    font-size: 0.8em;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    padding: 30px 20px;
+}
+
+.skill__title {
+    position: absolute;
+    margin-top: -44px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #eee;
+    font-size: 0.8em;
+    color: #505050;
+}
+
+.skill__name {
+    padding-bottom: 5px;
+}
+
+.more {
+    margin-top: 60px;
+}
+
+.more__skill {
+    margin: 5px 10px 0 0;
+}

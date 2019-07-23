@@ -1,0 +1,30 @@
+/* ===PILLS=== */
+
+
+/* ===PILLS=== */
+.pill {
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    font-size: 0.8em;
+}
+
+/* ===PROGRESS BAR=== */
+.progress-bar {
+    background: #ddd;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.progress-bar--fill {
+    text-align: right;
+    background-color: #4285F4;
+    border-radius: 10px;
+    font-size: 0.6em;
+    padding: 2px 5px;
+    color: #fff;
+}
+
+.progress-bar--green {
+    background-color: #68bf2a;
+}

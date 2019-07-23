@@ -1,0 +1,47 @@
+.cover {
+    height: calc(100vh - 60px);
+    padding: 0 10px;
+}
+
+.home {
+    text-align: center;
+}
+
+.home__role {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.home__image {
+    height: 500px;
+    max-height: 55vh;
+    max-width: 100%;
+}
+
+.home__title {
+    margin-top: 30px;
+    font-size: 2em;
+    font-family: 'Handlee', cursive;
+}
+
+.home__subtitle {
+    margin-top: 20px;
+}
+
+.home__subheader {
+    margin-top: -10px;
+}
+
+.social {
+    margin-top: 80px;
+}
+
+.social__icon {
+    height: 24px;
+    margin-right: 15px;
+}
+
+.social__icon:first-child {
+    margin-right: 15px;
+}

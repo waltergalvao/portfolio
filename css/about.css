@@ -1,0 +1,25 @@
+.about {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hobby {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.hobby__image {
+    width: 64px;
+}
+
+.hobby__title {
+    margin-top: 10px;
+}
