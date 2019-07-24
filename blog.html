@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/blog.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <title>Walter Galvão</title>
 </head>
@@ -42,34 +42,20 @@
         </nav>
     </header>
     <main>
-        <div class="cover">
-            <div class="home content">
-                <div class="container">
-                    <img src="images/dev.svg" class="home__image">
-                    <h1 class="home__title default-cursor">Walter Galvão</h1>
-
-                    <div class="home__subheader">
-                        <span class="home__role pill default-cursor">Developer</span>
-                        <span class="home__role pill default-cursor">Designer</span>
-                        <span class="home__role pill default-cursor">Entrepreneur</span>
-                        <span class="home__role pill default-cursor">Leader</span>
-                    </div>
-
-                    <div class="social">
-                        <a href="http://gitlab.com/wbgneto" target="_blank">
-                            <img src="images/icons/github.svg" class="social__icon">
-                        </a>
-                        <a href="https://www.linkedin.com/in/wbgneto/" target="_blank">
-                            <img src="images/icons/linkedin.svg" class="social__icon">
-                        </a>
-                        <a href="https://www.medium.com/@wbgneto/" target="_blank">
-                            <img src="images/icons/medium.svg" class="social__icon">
-                        </a>
-                    </div>
+        <div class="content">
+            <div class="small-container">
+                <h1 class="page-title">Blog</h1>
+                <small>Visit my profile at <a href="https://medium.com/@wbgneto" target="_blank" rel="nofollow">https://medium.com/@wbgneto</a></small>
+                <hr>
+                <div class="">
+                    <div id="medium-widget">Loading...</div>
                 </div>
             </div>
         </div>
     </main>
     <script src="js/main.js"></script>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@wbgneto","postsPerLine":1,"limit":4,"picture":"small","fields":["description","author","publishAt"],"ratio":"square"}})</script>
+
 </body>
 </html>
