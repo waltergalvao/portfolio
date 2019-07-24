@@ -1,0 +1,54 @@
+.contact {
+    font-size: 0.8em;
+}
+
+.contact__group {
+    margin-bottom: 10px;
+}
+
+.contact__label {
+    display: block;
+    padding: 5px 0;
+}
+
+.contact__action {
+    text-align: right;
+}
+
+.contact__submit {
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    background: #4285F4;
+}
+
+.contact__submit:hover {
+    background: #3e77e0;
+}
+
+.contact__input {
+    font-size: 0.8em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.feedback {
+    text-align: center;
+}
+
+.feedback_image {
+    max-height: 200px;
+}
+
+.feedback__title {
+    margin: 30px 0 10px 0;
+    font-size: 2em;
+    font-family: 'Handlee', cursive;
+}

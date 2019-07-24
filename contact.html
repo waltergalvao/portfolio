@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navigation.css">
-    <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <title>Walter Galvão</title>
 </head>
@@ -44,15 +44,44 @@
     <main>
         <div class="content">
             <div class="small-container">
-                <h1 class="page-title">Blog</h1>
-                <small>Visit my profile at <a href="https://medium.com/@wbgneto" target="_blank" rel="nofollow">https://medium.com/@wbgneto</a></small>
+                <h1 class="page-title">Contact</h1>
+                <small>Let's get in touch</small>
                 <hr>
-                <div id="medium-widget">Loading...</div>
+                <section class="contact">
+                    <form method="POST" id="contactForm">
+                        <div class="contact__group">
+                            <label for="name-input" class="contact__label">Your Name:</label>
+                            <input type="text" id="name-input" class="contact__input" required>
+                        </div>
+
+                        <div class="contact__group">
+                            <label for="email-input" class="contact__label">Your email:</label>
+                            <input type="email" id="email-input" class="contact__input" required>
+                        </div>
+
+                        <div class="contact__group">
+                            <label for="subject-input" class="contact__label">Subject:</label>
+                            <input type="text" id="subject-input" class="contact__input" required>
+                        </div>
+
+                        <div class="contact__group">
+                            <label for="message-input" class="contact__label">Message:</label>
+                            <textarea type="text" id="message-input" rows="8" class="contact__input" required></textarea>
+                        </div>
+
+                        <div class="contact__action">
+                            <button type="submit" class="contact__submit">Submit</button>
+                        </div>
+                    </form>
+                    <div id="feedback" class="feedback d-none">
+                        <img src="images/sent.svg" class="feedback_image">
+                        <h3 class="feedback__title">Thank you</h3>
+                        <p>I will you reply as soon as possible, if you want you can <a href="contact.html">send another message</a>.</p>
+                    </div>
+                </section>
             </div>
         </div>
     </main>
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@wbgneto","postsPerLine":1,"limit":4,"picture":"small","fields":["description","author","publishAt"],"ratio":"square"}})</script>
-
+    <script src="js/contact.js"></script>
 </body>
 </html>

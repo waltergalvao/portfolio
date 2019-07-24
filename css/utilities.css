@@ -22,3 +22,11 @@
 .default-cursor:hover {
     cursor: default;
 }
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}

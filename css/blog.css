@@ -1,8 +1,4 @@
-.blog {
-    margin-top: 60px;
-    font-size: 0.8em;
-    background: #fff;
-    border-radius: 4px;
-    border: 1px solid #eee;
-    padding: 30px 20px;
+/*===FIX FOR MEDIUM WIDGET===*/
+.medium-widget-article__row {
+    margin-right: 0 !important;
 }
