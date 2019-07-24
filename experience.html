@@ -39,6 +39,39 @@
                     <a href="contact.html" class="navigation__link">Contact</a>
                 </li>
             </ul>
+            <button type="button" class="navigation__open" id="openNavigation">
+                <img alt="Navigation" src="images/menu.svg" class="navigation__hamburguer">
+            </button>
+            <div class="navigation__drawer" id="navigationDrawer">
+                <div class="navigation__container">
+                    <h3 class="navigation__title">Navigation</h3>
+                    <ul class="navigation__mobile" role="menu">
+                        <li class="navigation__mobile-item">
+                            <a href="index.html" class="navigation__mobile-link">Home</a>
+                        </li>
+                        <li class="navigation__mobile-item">
+                            <a href="about.html" class="navigation__mobile-link">About</a>
+                        </li>
+                        <li class="navigation__mobile-item">
+                            <a href="skills.html" class="navigation__mobile-link">Skills</a>
+                        </li>
+                        <li class="navigation__mobile-item">
+                            <a href="experience.html" class="navigation__mobile-link">Experience</a>
+                        </li>
+                        <li class="navigation__mobile-item">
+                            <a href="blog.html" class="navigation__mobile-link">Blog</a>
+                        </li>
+                        <li class="navigation__mobile-item">
+                            <a href="contact.html" class="navigation__mobile-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="button" class="navigation__close" id="closeNavigation">
+                    &times;
+                </button>
+            </div>
+            <div class="navigation__mask d-none" id="navigationMask"></div>
         </nav>
     </header>
     <main>
@@ -146,5 +179,6 @@
             </div>
         </div>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
