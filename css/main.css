@@ -26,6 +26,11 @@ small {
     margin: 0 auto;
 }
 
+.mini-container {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
 .small-container {
     max-width: 720px;
     margin: 0 auto;

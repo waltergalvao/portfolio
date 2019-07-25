@@ -1,4 +1,39 @@
-/*===FIX FOR MEDIUM WIDGET===*/
-.medium-widget-article__row {
-    margin-right: 0 !important;
+.posts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+}
+
+.post__content {
+    display: block;
+    padding: 30px 0;
+}
+
+.post__thumbnail {
+    width: 100%;
+    text-align: center;
+    background: #000000;
+    border-radius: 4px;
+}
+
+.post__image {
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.post__title {
+    font-family: 'Arvo', serif;
+    margin-top: 10px;
+    color: #202020;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.post__date {
+    color: #909090;
+    font-size: 0.6em;
 }
