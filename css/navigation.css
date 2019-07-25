@@ -16,6 +16,7 @@
 .navigation__logo {
     font-size: 1.5em;
     font-family: 'Handlee', cursive;
+    color: #202020;
 }
 
 .navigation__menu {
@@ -50,24 +51,28 @@
     background: #fff;
     width: 80vw;
     max-width: 300px;
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
     z-index: 100;
     margin-left: -80vw;
 }
 
-.navigation__drawer--open {
-    margin-left: 0;
-}
-
 .navigation__mask {
+    display: none;
     width: 100vw;
+    margin-left: 200vw;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     z-index: 10;
+    -webkit-transition: all 1000ms;
+    transition: all 1000ms;
+}
+
+.navigation__mask--visible {
+    margin-left: 0vw;
 }
 
 .navigation__mask:hover {
@@ -106,7 +111,7 @@
 }
 
 .navigation__mobile-item {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .navigation__mobile-link {
@@ -114,6 +119,8 @@
     text-decoration: none;
     color: #202020;
     padding: 5px;
+    display: block;
+    width: 100%;
 }
 
 .navigation__mobile-link:hover {
@@ -121,11 +128,19 @@
 }
 
 @media (max-width: 768px) {
+    .navigation__drawer--open {
+        margin-left: 0;
+    }
+
     .navigation__menu {
         display: none;
     }
 
     .navigation__open {
+        display: block;
+    }
+
+    .navigation__mask {
         display: block;
     }
 }
