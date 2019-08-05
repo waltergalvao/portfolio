@@ -33,5 +33,5 @@ request.onload = function () {
         return displayPosts(JSON.parse(this.responseText));
     }
 
-    alert("Could not load posts, please try again later");
+    mediumPosts.innerHTML = 'Could not load posts, please try again later';
 };

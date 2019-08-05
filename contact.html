@@ -85,23 +85,23 @@
                 <section class="contact">
                     <form method="POST" id="contactForm">
                         <div class="contact__group">
-                            <label for="name-input" class="contact__label">Your Name:</label>
-                            <input type="text" id="name-input" class="contact__input" required>
+                            <label for="nameInput" class="contact__label">Your Name:</label>
+                            <input type="text" id="nameInput" class="contact__input" required>
                         </div>
 
                         <div class="contact__group">
-                            <label for="email-input" class="contact__label">Your email:</label>
-                            <input type="email" id="email-input" class="contact__input" required>
+                            <label for="emailInput" class="contact__label">Your email:</label>
+                            <input type="email" id="emailInput" class="contact__input" required>
                         </div>
 
                         <div class="contact__group">
-                            <label for="subject-input" class="contact__label">Subject:</label>
-                            <input type="text" id="subject-input" class="contact__input" required>
+                            <label for="subjectInput" class="contact__label">Subject:</label>
+                            <input type="text" id="subjectInput" class="contact__input" required>
                         </div>
 
                         <div class="contact__group">
-                            <label for="message-input" class="contact__label">Message:</label>
-                            <textarea type="text" id="message-input" rows="8" class="contact__input" required></textarea>
+                            <label for="messageInput" class="contact__label">Message:</label>
+                            <textarea type="text" id="messageInput" rows="8" class="contact__input" required></textarea>
                         </div>
 
                         <div class="contact__action">
@@ -110,7 +110,7 @@
                     </form>
                     <div id="feedback" class="feedback d-none">
                         <img src="images/sent.svg" class="feedback_image">
-                        <h3 class="feedback__title">Thank you</h3>
+                        <h3 class="feedback__title">Thank you <span id="senderName"></span></h3>
                         <p>I will reply as soon as possible, if you want you can <a href="contact.html">send another message</a>.</p>
                     </div>
                 </section>
